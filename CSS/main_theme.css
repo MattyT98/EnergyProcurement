@@ -1,0 +1,64 @@
+#cover {
+    background: rgb(255, 255, 255) url('../Images/EnergyProcuementServiceLogo.png') center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+#cover-caption {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+#landingchoice {
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.productsContainer{
+    display:flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+.productCard{
+    display: inline-block;
+    max-width: 300px;
+}
+.body {
+    min-height:100vh;
+}
+
+#container {
+
+      background: #222 url('../Images/EnergyProcuementServiceLogo.png') center center no-repeat;
+        background-size: cover;
+        height: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        position: relative;
+}
+
+.background {
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    z-index: -1;
+    border-radius: 10px;
+}

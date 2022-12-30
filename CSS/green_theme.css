@@ -1,0 +1,39 @@
+#cover {
+    background: rgb(255, 255, 255) url('../Images/EnergyProcuementServiceLogo.png') center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+.btn-secondary, .btn-primary, .btn-info, #landingchoice, .container{
+    background-image: none;
+    background-color: #207607;
+}
+
+.btn-warning, .btn-success{
+    background-image: none;
+    background-color: #358873;
+}
+/* .container */
+.container-flex, .btn-primary{
+    background-image: none;
+    background-color: white;
+    /* opacity: 0.5; */
+}  
+
+.jumbotron{
+    background-image: none;
+    background-color: #207607;
+}
+
+.form-group label{
+    color: black;
+}
+
+h1, .btn-primary {
+    color: black;
+}
